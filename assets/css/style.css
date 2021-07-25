@@ -107,12 +107,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.certificationIMG {
+  width: 50%;
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .certificationIMG {
+    width: 80%;
   }
 }
 
@@ -137,11 +149,27 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .certificationIMG {
+    width: 80%;
+  }
 }
 
 @media (min-width: 992px) {
   #main {
     margin-left: 100px;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .certificationIMG {
+    width: 80%;
   }
 }
 
@@ -1333,3 +1361,6 @@ margin: 2px;
 }
 }
 /* Conatct end */
+
+
+
