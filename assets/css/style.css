@@ -1362,5 +1362,42 @@ margin: 2px;
 }
 /* Conatct end */
 
+.btn-hire_me,
+.btn_downR {
+  color: #fff;
+  background-color: #1b8a86;
+  border-color: #1b8a86;
+}
 
+.btn-hire_me:hover,
+.btn_downR:hover {
+  color: #fff;
+  background-color: #1acac4;
+  border-color: #1acac4;
+
+}
+
+.btnlink {
+  text-decoration: none;
+    color: unset;
+}
+
+.btnHire,
+.btndown {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-hire_me,
+.btn_downR {
+  margin-bottom: 10px;
+}
+
+}
+
+@media (min-width: 992px) {
+}
 

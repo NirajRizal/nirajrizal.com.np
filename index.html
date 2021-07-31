@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -68,7 +68,7 @@
                 <li><a href="#skills" class="nav-link scrollto"><i class='bx bxs-pencil'></i> <span>Skill</span></a></li>
                 <li><a href="#certification" class="nav-link scrollto"><i class='bx bx-certification'></i> <span>certification</span></a></li>
                 <li><a href="#course" class="nav-link scrollto"><i class='bx bx-book-reader'></i> <span>Course</span></a></li>
-                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+                <li><a href="#contact-section" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
             </ul>
         </nav>
         <!-- .nav-menu -->
@@ -80,7 +80,7 @@
     <!-- particles.js container -->
     <div id="particles-js">
         <section id="hero" class="d-flex flex-column justify-content-center" style="position: absolute;z-index: 9995;width: 100%;">
-            <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <div class="container d-flex flex-column" data-aos="zoom-in" data-aos-delay="100">
                 <h1>Niraj Rijal</h1>
                 <p>I'm <span class="typed" data-typed-items="Network_Administrator,System_Administrator"></span></p>
                 <h6><iframe scrolling="no" border="0" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="false" src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&font_color=00fff2&aj_time=yes&font_size=16&line_brake=0&api=421236l274"
@@ -92,10 +92,33 @@
                     <a href="https://t.me/Niraj_Rijal" class="google-plus"><i class="bx bxl-telegram"></i></a>
                     <a href="https://www.linkedin.com/in/niraj-rijal🇳🇵-2a74411a0/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
+
+                <div class="row" style="
+                /* z-index: 10000;
+                position: absolute;
+                top: 120%;
+                left: 80%;
+                transform: translate(-120%, -120%);
+                text-align: center;
+                padding: 0 15px;
+                color: #FFFFFF;
+                width: 35%; */
+                /* max-width: 874px; */
+                width: 50%;
+    margin: auto;
+    margin-top: 8rem;
+        "> 
+                    <div class="col" >
+                        <a href="#contact-section" class="btnlink"><button type="button"  class="btnHire btn-hire_me scrollto" style="width: 175px;" id="hire_me"> Hire Me</button></a>
+                    </div>
+                    <div class="col">
+                       <a href="https://drive.google.com/file/d/10w1qVHR8KTjP1lS5H_WUp5MiCJ7AQjkp/view?usp=sharing" target="_blank" class="btnlink"> <button type="button" class="btndown btn_downR" style="width: 175px;">Download Resume</button></a>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- End Hero -->
-
+       
     </div>
 
 
@@ -378,70 +401,47 @@
 
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" >
+         <section id="contact-section" class="contact-section">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2>Contact</h2>
                 </div>
 
                 <div class="row mt-1">
-
                     <div class="col-lg-4">
+                        <form  class="contact-form" >
+                            <div class="contact-heading mb-3">
+                                <h4><strong>Feel free to contact me</strong></h4>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required >
+                            </div>
+
+                            <div class="form-group  mb-3 form_left">
+                                <input type="email" class="form-control" id="email" name="em" placeholder="Email" required>
+                            </div>
                         
-                            <form action="" class="contact-form" method="post">
-                                <div class="contact-heading mb-3">
-                                    <h4><strong>Feel free to contact me</strong></h4>
-                                </div>
-
-                                <div class="form-group mb-3">
-                                  <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
-                                </div>
-                            
-                            
-                                <div class="form-group  mb-3 form_left">
-                                  <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
-                                </div>
-                            
-                              <div class="form-group mb-3 ">
-                                   <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required="">
-                              </div>
-                              <div class="form-group mb-3 ">
-                              <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required=""></textarea>
-                              <br>
+                            <div class="form-group mb-3 ">
+                                <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required>
+                            </div>
+                            <div class="form-group mb-3 ">
+                            <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required></textarea>
+                            <br>
                                 <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send </button>
-                              </div>
-                             </form>
-                     
-
+                            </div>
+                        </form>
                     </div>
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
-
-
-
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.7989220367263!2d83.4653738145373!3d27.661692234104876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s7MV5MF69%2BM2!5e0!3m2!1sen!2snp!4v1625142042852!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
                     </div>
                 </div>
-
-
             </div>
-            </div>
-
-</body>
-
-</html>
-
-
-</div>
-
-</div>
-
-</div>
-</section>
-<!-- End Contact Section -->
-
+        </section> 
+        <!-- End Contact Section -->
+        
+       
 </main>
 <!-- End #main -->
 
