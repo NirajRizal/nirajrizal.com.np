@@ -1277,10 +1277,10 @@ margin: 2px;
 }
 
 .carousel-control-next, .carousel-control-prev {
- 
   width: 3%;
- 
 }
+
+
 
 
 	/* Conatct start */
@@ -1401,3 +1401,25 @@ margin: 2px;
 @media (min-width: 992px) {
 }
 
+.mobile-course {
+  display: none;
+}
+
+.desktop-device-course {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .mobile-course {
+    display: block;
+  }
+  
+  .desktop-device-course {
+    display: none;
+  }
+
+}
+
+@media (min-width: 992px) {
+}
