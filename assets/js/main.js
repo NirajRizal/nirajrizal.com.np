@@ -261,8 +261,7 @@
     })
   });
 
-  $('.carousel').carousel({
-    interval: false,
-  });
+ 
 
 })()
+
