@@ -1444,3 +1444,7 @@ margin: 2px;
 
 @media (min-width: 992px) {
 }
+
+.carousel-control-next, .carousel-control-prev {
+  align-items: unset;
+}
