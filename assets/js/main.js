@@ -261,4 +261,8 @@
     })
   });
 
+  $('.carousel').carousel({
+    interval: false,
+  });
+
 })()
