@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -1411,7 +1411,7 @@ margin: 2px;
     border-radius: .25rem;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .btn-hire_me,
 .btn_downR {
   margin-bottom: 10px;
@@ -1430,7 +1430,7 @@ margin: 2px;
   display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media only  screen and (max-width: 768px) {
  
   .mobile-course {
     display: block;
@@ -1454,9 +1454,17 @@ h5.card-title {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
+.carousel-control-next, .carousel-control-prev {
+  top: 60px;
+}
+
+@media only screen and (max-width: 768px) {
   h5.card-title {
     font-family: monotype corsiva;
     font-size: 1.5rem;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 20%;
   }
 }
