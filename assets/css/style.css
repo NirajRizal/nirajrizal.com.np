@@ -1453,3 +1453,10 @@ h5.card-title {
   font-family: monotype corsiva;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  h5.card-title {
+    font-family: monotype corsiva;
+    font-size: 1.5rem;
+  }
+}
