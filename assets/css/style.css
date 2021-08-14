@@ -1465,6 +1465,10 @@ h5.card-title {
   }
 
   .carousel-control-next, .carousel-control-prev {
+    top: 60px;
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
     width: 20%;
   }
 }
