@@ -1455,7 +1455,7 @@ h5.card-title {
 }
 
 .carousel-control-next, .carousel-control-prev {
-  top: 60px;
+  top: -50px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1465,9 +1465,9 @@ h5.card-title {
   }
 
   .carousel-control-next, .carousel-control-prev {
-    top: 60px;
+    top: -50px;
   }
-  
+
   .carousel-control-next, .carousel-control-prev {
     width: 20%;
   }
