@@ -1448,3 +1448,8 @@ margin: 2px;
 .carousel-control-next, .carousel-control-prev {
   align-items: unset;
 }
+
+h5.card-title {
+  font-family: monotype corsiva;
+  font-size: 1.5rem;
+}
